@@ -1,0 +1,207 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: Harrington;
+  display: inline-block;
+  font-size: 30px;
+}
+
+#logo {
+  margin-left: 200px;
+}
+
+header {
+  height: 100px;
+  top: 0;
+  width: 100%;
+}
+
+#brand1 {
+  color: red;
+}
+
+#brand2 {
+  color: blue;
+}
+
+nav {
+  float: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+.nav-links {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-links:hover {
+  background-color: red;
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li.active {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 22%;
+  margin: auto;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+main {
+  margin-bottom: 20vh;
+}
+
+.caption {
+  color: #fff;
+  margin: 0 auto;
+  padding: 1px;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.06);
+  bottom: 25%;
+  display: inline-block;
+  left: 0;
+  width: 80%;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.43);
+  margin: 0 auto;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+}
+.text span {
+  font-size: 10px;
+  display: block;
+  font-weight: bold;
+}
+.text strong {
+  font-size: 50px;
+  display: block;
+}
+.text p {
+  font-size: 19px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.facility img {
+  width: 250px;
+  height: 200px;
+}
+
+#gallery {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+#gallery img {
+  width: 250px;
+  height: 175px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#about {
+  width: 80%;
+}
+
+#contact,
+#quick-links,
+#social {
+  float: left;
+  text-align: center;
+  margin-left: 150px;
+}
+
+#audio {
+  text-align: center;
+}
+
+.social-images {
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+}
+
+.social-images:hover {
+  opacity: 50%;
+}
+
+.academic-para {
+  font-size: 30px;
+  font-family: Harrington;
+}
+
+.academic-h2 {
+  font-size: 40px;
+}
+.container {
+  position: relative;
+  padding-top: 300px;
+}
+
+.images {
+  width: 100%;
+  height: 100px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+ul {
+  list-style-type: none;
+  top: 200px;
+  width: 100%;
+  height: 100px;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.small {
+  width: 100px;
+  height: 80px;
+}
+
+.large {
+  display: none;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 10px;
+  left: 20%;
+}
+
+li:hover img {
+  display: block;
+}
